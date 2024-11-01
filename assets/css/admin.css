@@ -1,0 +1,146 @@
+/**
+ * SpruceJoy Membership Admin Styles CSS
+ *
+ * CSS for the SpruceJoy Membership admin panels
+ * 
+ * This file is part of the SpruceJoy Membership plugin by SpruceJoy
+ * You can find out more about this plugin at https://sprucejoy.com
+ * Copyright (c) 2020-2021 SpruceJoy
+ * SpruceJoy Membership(tm) is a trademark of sprucejoy.com
+ *
+ * @package SpruceJoy Membership
+ * @author SpruceJoy 
+ * @copyright 2020-2021
+ */
+body{
+	background-color: #E5E5E5;
+}
+.metabox-holder{
+	font-family: Noto Sans ;
+	
+}
+.metabox-holder .title{
+	font-family: Noto Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 28px;
+	padding-left: 12px;	
+}
+.wpsjmembership_tbl_drag { 
+	background:#fffbcc;
+	font-weight: bold;
+	border: 1px solid #990000;
+}
+
+.column-wpsjmembership_block {
+	width: 80px;
+}
+
+#addfieldform li,
+#editfieldform li,
+#updatesettings li {
+	padding: 5px 0; 
+}
+
+#addfieldform label,
+#editfieldform label,
+#updatesettings label {
+	float:left;
+	width: 166px;
+	clear: both;
+	display: block;
+}
+
+#addfieldform .add-field-indent,
+#editfieldform .add-field-indent {
+	margin-left: 165px;
+}
+
+#fields_postbox,
+#add_field_postbox {
+	min-width:950px;
+}
+
+.req {
+	color: #f00;
+}
+
+#the-list {
+	cursor: move;
+}
+#sort, #edit {
+	width: 30px;
+}
+
+#wpsjmembership_block input {
+	vertical-align: -webkit-baseline-middle;
+	margin: 0 0 8px 0;
+}
+#wpsjmembership_block label {
+	margin: 0 0 0 8px;
+}
+#wpsjmembership_ok_block_status {
+	margin: 5px 0 0 0;
+}
+#wpsjmembership_post_block_status {
+	font-weight: 600;
+}
+#wpsjmembership_post_icon_0 {
+	color: red;
+}
+#wpsjmembership_post_icon_1 {
+	color: green;
+}
+#wpsjmembership_post_icon_2 {
+	color: black;
+}
+#wpsjmembership_product_enabled {
+	color: green;
+}
+#s2id__wpsjmembership_products,
+.select2-search-field,
+#_wpsjmembership_products {
+	width: 100%;
+}
+
+/** User Profile Tabs **/
+#wpsjmembership_user_profile_tabs { 
+	padding: 0px; 
+	background: none; 
+	border-width: 0px; 
+} 
+#wpsjmembership_user_profile_tabs .ui-tabs-nav { 
+	padding-left: 0px; 
+	background: transparent; 
+	border-width: 0px 0px 1px 0px; 
+	-moz-border-radius: 0px; 
+	-webkit-border-radius: 0px; 
+	border-radius: 0px; 
+} 
+#wpsjmembership_user_profile_tabs .ui-tabs-panel { 
+	background: #fff; 
+	border-width: 0px 1px 1px 1px; 
+}
+#wpsjmembership_user_profile_tabs .ui-state-active {
+	border: 1px solid #006799; 
+	background: #008ec2;
+}
+#wpsjmembership_user_profile_tabs .ui-state-active a {
+	color: #fff;
+}
+
+#wpsjmembership_product_fixed_period_select label,
+#wpsjmembership_product_fixed_period_select input,
+#wpsjmembership_product_no_gap,
+#wpsjmembership_product_fixed_period {
+	margin-top: 10px;
+	margin-left: 24px;
+}
+
+#updatesettings a {
+	text-decoration:none;
+}
+updatesettings a:hover {
+	color: black;
+}
